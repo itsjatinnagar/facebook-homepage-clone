@@ -1,0 +1,34 @@
+/* Resetting Default Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #385898;
+}
+
+html {
+	font-size: 10px;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+/* Custom Properties - Variables */
+:root {
+	--theme-background: #fff;
+	--theme-text: #000;
+
+	--primary-background: #f0f2f5;
+	--primary-text: #1c1e21;
+
+	--primary-blue: #1877f2;
+	--hover-blue: #166fe5;
+	--primary-green: #42b72a;
+	--hover-green: #36a420;
+}
