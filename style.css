@@ -125,6 +125,12 @@ hr {
 	color: #ccc;
 }
 
+.password-wrapper {
+	position: relative;
+	padding-top: 1.3rem;
+	padding-bottom: 1.8rem;
+}
+
 #password-toggle {
 	display: none;
 	position: absolute;

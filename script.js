@@ -9,3 +9,15 @@ passwordInput.addEventListener("input", () => {
         passwordToggle.style.display = "none";
     }
 });
+
+passwordToggle.addEventListener("click", () => {
+    if (toggleClass.contains("fa-eye")) {
+        toggleClass.remove("fa-eye");
+        toggleClass.add("fa-eye-slash");
+        passwordInput.type = "password";
+    } else {
+        toggleClass.remove("fa-eye-slash");
+        toggleClass.add("fa-eye");
+        passwordInput.type = "text";
+    }
+});
