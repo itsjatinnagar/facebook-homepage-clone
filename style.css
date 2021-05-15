@@ -125,6 +125,15 @@ hr {
 	color: #ccc;
 }
 
+#password-toggle {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-60%);
+	cursor: pointer;
+}
+
 .login-btn {
 	padding: 1.2rem;
 	font-size: 1.8rem;
@@ -264,7 +273,7 @@ footer hr {
 		margin: 0 auto;
 		text-align: center;
 	}
-    
+
 	.right-col {
 		margin: 0 auto;
 	}
