@@ -21,3 +21,5 @@ passwordToggle.addEventListener("click", () => {
         passwordInput.type = "text";
     }
 });
+
+document.getElementById("current-year").innerText = new Date().getFullYear();

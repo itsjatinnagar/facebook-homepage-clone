@@ -7,7 +7,7 @@
 
 a {
 	text-decoration: none;
-	color: #385898;
+	color: #8a8d91;
 }
 
 html {
@@ -202,7 +202,8 @@ hr {
 footer {
 	margin: auto;
 	padding: 1.2rem 0 2.6rem;
-	width: 980px;
+	max-width: 980px;
+    width: 90%;
 	font-size: 1.2rem;
 }
 
@@ -216,7 +217,9 @@ footer hr {
 }
 
 .languages a {
-	margin-left: 6px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 6px;
 }
 
 .add-lang {
@@ -243,16 +246,6 @@ footer hr {
 	margin-top: 2rem;
 	font-size: 1.1rem;
 	color: #555;
-}
-
-.copyright::after {
-	content: "This is a fake facebook.com page created by Jatin Nagar.";
-	position: absolute;
-	top: 0;
-	right: 0;
-	font-family: monospace;
-	font-size: 1.2rem;
-	color: #404040;
 }
 
 /* Breakpoints - Media Queries */
